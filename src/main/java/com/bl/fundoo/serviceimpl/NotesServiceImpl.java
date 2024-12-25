@@ -31,7 +31,6 @@ public class NotesServiceImpl implements NotesService {
 	@Autowired
 	private UserRepo userRepo;
 
-
 	@Autowired
 	private NotesRepositary notesRepo; 
 	

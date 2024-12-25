@@ -64,8 +64,6 @@ public class JWTService {
 	public boolean validateToken(String token, UserDetails userDetails) {
 		Claims c= extractToken(token);
 		final String userName=extractUserName(token);
-		System.out.println(userName+"000000");
-		System.out.println(userDetails.getUsername());
 		return(userName.equals(userDetails.getUsername()) && isTokenExpired(token));
 	}
 
