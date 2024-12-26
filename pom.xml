@@ -122,6 +122,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>fundoojar</finalName>
 	</build>
 
 </project>
